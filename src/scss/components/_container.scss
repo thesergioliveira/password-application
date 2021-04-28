@@ -1,0 +1,8 @@
+.container {
+  height: 100px;
+  width: 100px;
+  display: grid;
+  @include border(yellow);
+  position: absolute;
+  top: 500px;
+}

@@ -1,0 +1,29 @@
+body {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 8% auto 8%;
+  grid-template-areas:
+    "header header header"
+    "main main main"
+    "footer footer footer";
+}
+
+header {
+  grid-area: header;
+  // height: 5vh;
+  // width: 100vw;
+  background-color: $header-color;
+  @include border(black);
+}
+
+main {
+  grid-area: main;
+}
+
+footer {
+  grid-area: footer;
+  // height: 5vh;
+  // width: 100vw;
+  background-color: $header-color;
+  @include border(red);
+}
