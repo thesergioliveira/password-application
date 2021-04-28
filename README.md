@@ -4,7 +4,7 @@
 
 ## About The Project
 
-<img src="src/images/jason-dent-3wPJxh-piRw-unsplash.jpg" alt="image of a safe" width="200px"/>
+<img src="src/images/jason-dent-3wPJxh-piRw-unsplash.jpg" alt="image of a safe" width="200px" height="300px" margin="auto"/>
 
 <!-- [![Product Name Screen Shot][product-screenshot]](https://example.com) -->
 
