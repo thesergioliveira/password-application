@@ -1,149 +1,137 @@
-## I need a good sass project structure, Can you help me?
+## Password-Application
 
-## Get Started
+<!-- ABOUT THE PROJECT -->
 
-- [Structure](#structure)
-- [Importing](#importing)
-- [File declaration](#file-declaration)
-- [Setup](#setup)
+## About The Project
 
-## Structure
+[![Product Name Screen Shot][product-screenshot]](https://example.com)
 
-Because many of you having a hard time structuring or working around the new structure of sass. I thought, I would share with you. The general setup that you might want to have on your build. Of course sometimes things can change, but this is an overlook on what you can have.
+More to come about this project. Please wait while this page is finalized 😉
 
-```
-scss/
-|
-|- abstracts/
-|	|- __abstracts-dir.scss     # Import all abstracts .scss files
-|	|- _fonts.scss              # Font Import
-|	|- _mixins.scss             # Scss Mixins
-|	|- _variables.scss          # Scss Variables
-|	|- _functions.scss          # Scss Functions(if you have)
-|
-|- base/
-|	|- __base-dir.scss          # Import all base .scss files
-|	|- _reset.scss              # Custom Reset/Normalize
-|	|- _typography.scss         # Typography Rules
-|	…                           # Rest if you have..
-|
-|- components/
-|	|- __components-dir.scss    # Import all components .scss files
-|	|- _button.scss             # Button Styles
-|	|- _input.scss              # Input Styles
-|	|- _modal.scss              # Modal Styles
-|	…	                        # Rest if you have..
-|
-|- layouts/
-|	|- __layouts-dir.scss       # Import all layouts .scss files
-|	|- _footer.scss             # Footer Styles
-|	|- _main-menu.scss          # Main Navigation Styles
-|	…                           # Rest if you have..
-|
-|- vendor/
-|	|- __vendor-dir.scss        # Import vendor folders (All of the out side tools that you need for your project)
-|	|- fontawesome/             # Font Awesome
-|	|- normalize/               # Normalize
-|	…                           # Rest if you have..
-|
-main.scss                       # Main Scss File
-```
+<!-- There are many great README templates available on GitHub, however, I didn't find one that really suit my needs so I created this enhanced one. I want to create a README template so amazing that it'll be the last one you ever need -- I think this is it.
 
-## Importing
+Here's why:
+* Your time should be focused on creating something amazing. A project that solves a problem and helps others
+* You shouldn't be doing the same tasks over and over like creating a README from scratch
+* You should element DRY principles to the rest of your life :smile:
 
-in `main.scss`you need to import all of the files that ends with `-dir.scss`
-keep on mind all the files names should starts with `_` besides your `main.scss`
-Also your vendors and abstracts should be the first ones that you import
+Of course, no one template will serve all projects since your needs may be different. So I'll be adding more in the near future. You may also suggest changes by forking this repo and creating a pull request or opening an issue. Thanks to all the people have have contributed to expanding this template!
 
-```
-//Vendor
-@import "vendor/__vendor-dir";
+A list of commonly used resources that I find helpful are listed in the acknowledgements. -->
 
-//Abstracts
-@import "abstracts/__abstracts-dir";
+### Built With
 
-//Base Styles
-@import "base/__base-dir";
+This section lists the major tools and frameworks that you were used to built this project.
 
-//Components
-@import "components/__components-dir";
+- [Scss](https://sass-lang.com/)
+- [JavaScript](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript)
+<!-- * [Laravel](https://laravel.com) -->
 
-//Layout
-@import "layouts/__layouts-dir";
+<!-- GETTING STARTED -->
 
-```
+## Getting Started
 
-## File Declaration
+Instructions to come here. Please wait, this README.md file is a work in progress...
 
-## `Vendors`
+<!--
+This is an example of how you may give instructions on setting up your project locally.
+To get a local copy up and running follow these simple example steps. -->
 
-Here you will be adding all of the 3rd party tools say fontawesome, normalize and any other ones.
+<!-- ### Prerequisites
 
-## `Abstracts`
+This is an example of how to list things you need to use the software and how to install them.
+* npm
+  ```sh
+  npm install npm@latest -g -->
 
-Any Variables you will have mixins or functions, you can add here so it's kind of your owm setups for your project.
+````
 
-## `Base`
+<!-- ### Installation
 
-You can set your customisations for your base, say your own normalize or any headlines general rules.
+1. Get a free API Key at [https://example.com](https://example.com)
+2. Clone the repo
+ ```sh
+ git clone https://github.com/your_username_/Project-Name.git
+````
 
-## `Components`
-
-Do deep in depth into your elements what Defines your webpage what components that you rely on say (forms, registration forms, Gallery, ...)
-tip: you will see actual use here when we start working with react
-
-## `layout`
-
-Define your layout, how your webpage looks like
-
-## Setup
-
-1. Clone this repository into a new project folder (replace `[project name]` with your project's name)
-
-   ```
-   git clone git@github.com:Fbw-48/sass-project-structure.git [project name]
-   ```
-
-1. Delete the boilerplate's git history to ensure that the project history only includes your commits
-
-   ```
-   cd <project name>
-   rm -rf .git
-   ```
-
-1. Edit `package.json` to add you project's name
-
-   `package.json`
-
-   ```json
-   {
-     "name": "[project name]",
-     ...
-     "author": "[your name]"
-   }
-   ```
-
-1. Edit `src/index.html` to add your projects name
-
-   ```html
-   ...
-   <head>
-     ...
-     <title>[project name]</title>
-   </head>
-   ...
-   ```
-
-1. Start a new git repository and make an initial commit. This will make sure that you can work on your project with git.
-
-   ```
-   git init
-   git add . && git commit -m "Initial commit"
-   ```
-1. Install the dependencies
-
-   ```
+3. Install NPM packages
+   ```sh
    npm install
    ```
+4. Enter your API in `config.js`
+   ````JS
+   const API_KEY = 'ENTER YOUR API';
+   ``` -->
+   ````
 
-1. Happy coding ☘️ 
+<!-- USAGE EXAMPLES -->
+
+## Usage
+
+More to come...
+
+<!-- Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
+
+_For more examples, please refer to the [Documentation](https://example.com)_ -->
+
+<!-- ROADMAP -->
+<!-- ## Roadmap
+
+See the [open issues](https://github.com/othneildrew/Best-README-Template/issues) for a list of proposed features (and known issues). -->
+
+<!-- CONTRIBUTING -->
+
+## Contributing
+
+Contributions are what make the open source community such an amazing place to be learn, inspire, and create. Any contributions you make are **greatly appreciated**.
+
+1. Fork the Project
+2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the Branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
+
+<!-- LICENSE -->
+
+## License
+
+Distributed under the MIT License. See `LICENSE` for more information.
+
+<!-- CONTACT -->
+
+## Contact
+
+Sergio Oliveira - [@your_twitter](https://twitter.com/your_username) - email@example.com
+
+Project Link: [password-application](https://thesergioliveira.github.io/password-application/)
+
+<!-- ACKNOWLEDGEMENTS -->
+<!-- ## Acknowledgements
+* [GitHub Emoji Cheat Sheet](https://www.webpagefx.com/tools/emoji-cheat-sheet)
+* [Img Shields](https://shields.io)
+* [Choose an Open Source License](https://choosealicense.com)
+* [GitHub Pages](https://pages.github.com)
+* [Animate.css](https://daneden.github.io/animate.css)
+* [Loaders.css](https://connoratherton.com/loaders)
+* [Slick Carousel](https://kenwheeler.github.io/slick)
+* [Smooth Scroll](https://github.com/cferdinandi/smooth-scroll)
+* [Sticky Kit](http://leafo.net/sticky-kit)
+* [JVectorMap](http://jvectormap.com)
+* [Font Awesome](https://fontawesome.com) -->
+
+<!-- MARKDOWN LINKS & IMAGES -->
+<!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
+
+[contributors-shield]: https://img.shields.io/github/contributors/othneildrew/Best-README-Template.svg?style=for-the-badge
+[contributors-url]: https://github.com/othneildrew/Best-README-Template/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/othneildrew/Best-README-Template.svg?style=for-the-badge
+[forks-url]: https://github.com/othneildrew/Best-README-Template/network/members
+[stars-shield]: https://img.shields.io/github/stars/othneildrew/Best-README-Template.svg?style=for-the-badge
+[stars-url]: https://github.com/othneildrew/Best-README-Template/stargazers
+[issues-shield]: https://img.shields.io/github/issues/othneildrew/Best-README-Template.svg?style=for-the-badge
+[issues-url]: https://github.com/othneildrew/Best-README-Template/issues
+[license-shield]: https://img.shields.io/github/license/othneildrew/Best-README-Template.svg?style=for-the-badge
+[license-url]: https://github.com/othneildrew/Best-README-Template/blob/master/LICENSE.txt
+[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
+[linkedin-url]: https://linkedin.com/in/othneildrew
+[product-screenshot]: images/screenshot.png
