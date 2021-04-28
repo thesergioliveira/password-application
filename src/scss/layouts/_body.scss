@@ -22,6 +22,7 @@ header {
 
 main {
   grid-area: main;
+  @include flex;
 }
 
 footer {

@@ -1,8 +1,8 @@
-// .container {
-//   height: 100px;
-//   width: 100px;
-//   display: grid;
-//   @include border(yellow);
-//   position: absolute;
-//   top: 500px;
-// }
+.container {
+  width: clamp(320px, 80vw, 1200px);
+  height: clamp(450px, 70vh, 1200px);
+  grid-area: container;
+  @include border(rgba(126, 118, 118, 0.486));
+  background-color: $card-color;
+  border-radius: 10px;
+}

@@ -2,6 +2,13 @@
 @mixin border($color) {
   border: 2px solid $color;
 }
+
+@mixin flex($direction: row, $content: center, $align: center) {
+  display: flex;
+  flex-direction: $direction;
+  justify-content: $content;
+  align-items: $align;
+}
 // @mixin name {
 //   // your rules
 // }
