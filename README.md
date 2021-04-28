@@ -1,4 +1,4 @@
-## Password-Application
+# Password-Application
 
 <!-- ABOUT THE PROJECT -->
 
@@ -33,7 +33,7 @@ This section lists the major tools and frameworks that you were used to built th
 
 <!-- GETTING STARTED -->
 
-## Getting Started
+### Getting Started
 
 Instructions to come here. Please wait, this readme is a work in progress...
 
@@ -71,7 +71,7 @@ This is an example of how to list things you need to use the software and how to
 
 <!-- USAGE EXAMPLES -->
 
-## Usage
+### Usage
 
 More to come...
 
@@ -86,7 +86,7 @@ See the [open issues](https://github.com/othneildrew/Best-README-Template/issues
 
 <!-- CONTRIBUTING -->
 
-## Contributing
+### Contributing
 
 Contributions are what make the open source community such an amazing place to be learn, inspire, and create. Any contributions you make are **greatly appreciated**.
 
@@ -98,13 +98,13 @@ Contributions are what make the open source community such an amazing place to b
 
 <!-- LICENSE -->
 
-## License
+### License
 
 Distributed under the MIT License. See `LICENSE` for more information.
 
 <!-- CONTACT -->
 
-## Contact
+### Contact
 
 Sergio Oliveira - [@your_twitter](https://twitter.com/your_username) - email@example.com
 
