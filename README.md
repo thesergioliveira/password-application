@@ -4,7 +4,9 @@
 
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
+<img src="src/images/jason-dent-3wPJxh-piRw-unsplash.jpg" alt="image of a safe" width="200px"/>
+
+<!-- [![Product Name Screen Shot][product-screenshot]](https://example.com) -->
 
 More to come about this project. Please wait while this page is finalized 😉
 
