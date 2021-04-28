@@ -4,9 +4,11 @@
 
 ## About The Project
 
-<img src="src/images/jason-dent-3wPJxh-piRw-unsplash.jpg" alt="image of a safe" width="300px" height="400px" align-text="center"/>
+<p  align="center">
+<img src="src/images/jason-dent-3wPJxh-piRw-unsplash.jpg" alt="image of a safe" width="350px" height="350px"/>
+</p>
 
-<!-- [![Product Name Screen Shot][product-screenshot]](https://example.com) -->
+<!-- ![Product Name Screen Shot](src/images/jason-dent-3wPJxh-piRw-unsplash.jpg?style=centerme) -->
 
 More to come about this project. Please wait while this page is finalized 😉
 
@@ -137,4 +139,5 @@ Project Link: [password-application](https://thesergioliveira.github.io/password
 [license-url]: https://github.com/othneildrew/Best-README-Template/blob/master/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/othneildrew
-[product-screenshot]: src/images/jason-dent-3wPJxh-piRw-unsplash.jpg
+
+[product-screenshot]:
