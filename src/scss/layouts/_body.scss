@@ -1,19 +1,23 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: boder-box;
+}
 body {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 8% auto 8%;
+  grid-template-rows: 10vh 80vh 10vh;
   grid-template-areas:
     "header header header"
     "main main main"
     "footer footer footer";
+  height: 100vh;
 }
 
 header {
   grid-area: header;
-  // height: 5vh;
-  // width: 100vw;
   background-color: $header-color;
-  @include border(black);
+  //   @include border(black);
 }
 
 main {
@@ -22,8 +26,6 @@ main {
 
 footer {
   grid-area: footer;
-  // height: 5vh;
-  // width: 100vw;
   background-color: $header-color;
-  @include border(red);
+  //   @include border(red);
 }
