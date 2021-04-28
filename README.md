@@ -31,7 +31,7 @@ This section lists the major tools and frameworks that you were used to built th
 
 ## Getting Started
 
-Instructions to come here. Please wait, this README.md file is a work in progress...
+Instructions to come here. Please wait, this readme is a work in progress...
 
 <!--
 This is an example of how you may give instructions on setting up your project locally.
@@ -44,9 +44,10 @@ This is an example of how to list things you need to use the software and how to
   ```sh
   npm install npm@latest -g -->
 
+<!--
 ````
 
-<!-- ### Installation
+ ### Installation
 
 1. Get a free API Key at [https://example.com](https://example.com)
 2. Clone the repo
@@ -61,8 +62,8 @@ This is an example of how to list things you need to use the software and how to
 4. Enter your API in `config.js`
    ````JS
    const API_KEY = 'ENTER YOUR API';
-   ``` -->
-   ````
+   ```
+   ````  -->
 
 <!-- USAGE EXAMPLES -->
 
@@ -134,4 +135,4 @@ Project Link: [password-application](https://thesergioliveira.github.io/password
 [license-url]: https://github.com/othneildrew/Best-README-Template/blob/master/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/othneildrew
-[product-screenshot]: images/screenshot.png
+[product-screenshot]: src/images/jason-dent-3wPJxh-piRw-unsplash.jpg
