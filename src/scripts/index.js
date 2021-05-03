@@ -4,12 +4,11 @@ const showPassword = document.querySelector(".password");
 
 click.onclick = function () {
   const newElement = document.createElement("p");
-
+  // checking if I have already generated a password, if so clear the old one to generate the new one.
   showPassword.childNodes.length == 0
     ? null
     : showPassword.removeChild(showPassword.firstChild);
-
-  console.log(showPassword.childNodes);
+  //generating random password
   let numb = [0, 1, 2, 3, 4, 5, 6, 6, 7, 8, 9];
   let alphaLc = [
     "a",
@@ -38,7 +37,6 @@ click.onclick = function () {
     "y",
     "z",
   ];
-  //                     0,   1,   2,   3,   4,   5,  6,     7 = 8
   let specialCharacters = ["!", "§", "$", "%", "&", "?", "@", "€"];
   let password = "";
   for (let i = 0; i < 30; i++) {
@@ -59,7 +57,8 @@ click.onclick = function () {
       password += spChr;
     }
   }
-
+  //inserting the new generated password into the "p"
   newElement.innerHTML = password;
+  //appending the paragraph into the correct HTML to display it
   showPassword.appendChild(newElement);
 };
