@@ -15,13 +15,33 @@
     </header>
     <main>
       <section class="container">
-        <div class="password-box"></div>
-        <div class="information"></div>
+        <div class="password-box">
+          <div class="password"></div>
+          <button class="generate">generate password</button>
+        </div>
+        <div class="information">
+          <div>
+            <p>
+              Use the slider, and select from the option below, to lengthen your
+              password and strengthen your security.
+            </p>
+            <span>Password length(4-64)</span>
+          </div>
+          <div>
+            <input type="range" min="4" max="100" class="slider" id="range" />
+          </div>
+        </div>
         <div class="checkbox"></div>
         <div class="install"></div>
       </section>
     </main>
-    <footer></footer>
+    <footer>
+      <div class="copyright">
+        <p>Copyright Sergio Almeida Oliveira All rights reserved.</p>
+        <p>|</p>
+        <p>Developed with 💖 by Sergio Almeida Oliveira</p>
+      </div>
+    </footer>
 
     <script src="./scripts/index.js"></script>
   </body>
